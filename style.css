@@ -1,6 +1,6 @@
 /*Nav First*/
 
-.navigation {
+#navigation {
     position:fixed;
     width:100%;
     background:black;
@@ -8,6 +8,7 @@
     top:0px;
     text-transform:uppercase;
     letter-spacing:1px;
+    transition: top 0.3s; /* Transition effect when sliding down (and up) */
   }
   
   .logo {
