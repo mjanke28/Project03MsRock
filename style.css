@@ -36,13 +36,9 @@
     background: blue;
   }
 
-  @media only screen and (max-width: 780px) {
+  @media only screen and (max-width: 530px) {
     .logo {display:none;}
-}
-
-  @media only screen and (max-width: 450px) {
-    .logo {display:none;}
-	.navlinks{float:left; padding: 25px 0 25px 5px; letter-spacing:0px;}
+    .navlinks{float:left; padding: 25px 0 25px 5px; letter-spacing:0px;}
 }
 
   /*
