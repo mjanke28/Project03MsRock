@@ -12,7 +12,6 @@
   }
   
   .logo {
-    width: 50%;
     float: left;
     margin: 0;
     padding: 0;
@@ -37,9 +36,13 @@
     background: blue;
   }
 
+  @media only screen and (max-width: 780px) {
+    .logo {display:none;}
+}
+
   @media only screen and (max-width: 450px) {
     .logo {display:none;}
-	.navlinks{float:left; padding: 25px 0 25px 7px; letter-spacing:0px;}
+	.navlinks{float:left; padding: 25px 0 25px 5px; letter-spacing:0px;}
 }
 
   /*
