@@ -3,7 +3,7 @@
 #navigation {
     position:fixed;
     width:100%;
-    background:black;
+    background:#0D0D0B;
     z-index:3000;
     top:0px;
     text-transform:uppercase;
@@ -24,7 +24,7 @@
   
   .navlinks a {
     width:50%;
-    color:#fff;
+    color:#F2F2F2;
     padding:10px 15px;
     -webkit-transition: all 0.3s ease;
     -moz-transition: all 0.3s ease;
@@ -33,7 +33,7 @@
   
   .navlinks a:hover {
     padding:20px 15px;
-    background: blue;
+
   }
 
   @media only screen and (max-width: 530px) {
@@ -41,11 +41,15 @@
     .navlinks{float:left; padding: 25px 0 25px 5px; letter-spacing:0px;}
 }
 
-  /*
+@media only screen and (max-width: 400px) {
+  .logo {display:none;}
+  .navlinks{float:left; word-spacing: -5px;; letter-spacing:0px;}
+}
+
 a.is-active{
-    background-color: gray;
-    color: black;
-  } */
+    color: #8C8274;
+    text-decoration: none;
+}
 
 
 /* general styles */
@@ -87,11 +91,11 @@ html, body {
   #about {
   }
   #services {
-    background-color: #306d9f;
-    color: #ffffff;
+    background-color: #8C8274;
+    color: #F2F2F2;
   }
   #services .glyphicon {
-    border: 2px solid #FFFFFF;
+    border: 2px solid #F2F2F2;
     border-radius: 50%;
     display: inline-block;
     font-size: 60px;
@@ -120,18 +124,20 @@ html, body {
   }
   footer {
     padding: 20px 0;
+    background-color: #0D0D0B;
+    color: #F2F2F2;
   }
   footer .glyphicon {
-    color: #333333;
+    color: #F2F2F2;
     font-size: 60px;
   }
-  footer .glyphicon:hover {
-    color: #306d9f;
+  footer a {
+    color: #F2F2F2;
   }
 
   /*personal taste*/
 
   .btn {
-    border: 1px solid black;
-    background-color: white;
+    border: 1px solid #0D0D0B;
+    background-color: #F2F2F2;
 }
