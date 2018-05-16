@@ -210,3 +210,44 @@ p {
 .timeline p {
   padding: 0 25%
 }
+
+
+/* styling for footer progress */
+$orange:  #CEA449;
+$lightgrey:  #0D0D0B;
+$white:  #0D0D0B;
+$charcoal: #333;
+$ease: background .15s ease;
+
+%align-both {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%)
+}
+
+.fill {
+   width: 100%;
+   height: 100%;
+   background: $orange;
+   position: absolute;
+   bottom: 0;
+   transition: $ease;
+}
+
+.progress {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 8px;
+  background: #0D0D0B;
+  z-index: 1;
+
+  .bar {
+    height: 100%;
+    width: 10%;
+    background: $orange;
+    transition: $ease;
+
+  }
+}

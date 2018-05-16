@@ -159,6 +159,10 @@
 
     </div>
 
+    <div class="progress">
+        <div class="bar"></div>
+    </div>
+
     <footer>
 <!--Footer-->
 <footer class="page-footer font-small">
@@ -171,6 +175,8 @@
             <!--Grid row-->
         </div>
     </div>
+
+   
 
     <!--Footer Links-->
     <div class="container mt-5 mb-4 text-center">
@@ -283,6 +289,26 @@
     }
 }
     </script>
+
+<!-- Progress Breadcrumb on the footer -->
+    <script>
+    function progress() {
+
+var windowScrollTop = $(window).scrollTop();
+var docHeight = $(document).height();
+var windowHeight = $(window).height();
+var progress = (windowScrollTop / (docHeight - windowHeight)) * 100;
+var $bgColor = progress > 99 ? '#CEA449' : '#CEA449';
+var $textColor = progress > 99 ? '#fff' : '#333';
+
+$('.progress .bar').width(progress + '%').css({ backgroundColor: $bgColor });
+$('.fill').height(progress + '%').css({ backgroundColor: $bgColor });
+}
+
+progress();
+
+$(document).on('scroll', progress);
+</script>
   
   </body>
 </html>
