@@ -47,13 +47,13 @@
 }
 
 a.is-active{
-    color: #8C8274;
     text-decoration: none;
 }
 
 
 /* general styles */
 html, body {
+    color: #F2F2F2;
     height: 100%;
     width: 100%;
   }
@@ -145,6 +145,7 @@ html, body {
   .btn {
     border: 1px solid #0D0D0B;
     background-color: #F2F2F2;
+    color: #0D0D0B;
 }
 
 .block-quote {
@@ -156,6 +157,18 @@ html, body {
   color: #F2F2F2;
 }
 
-.block-quote p {
+p {
   color: #F2F2F2;
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+.timeline {
+  background-color: #0D0D0B;
+  padding: 10%;
+  width: 100%;
+}
+
+.timeline p {
+  padding: 0 25%
 }
