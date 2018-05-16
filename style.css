@@ -78,7 +78,7 @@ html, body {
   }
   /* additional sections */
   #home {
-    background: url("images/double-diamond-design.png") no-repeat center center fixed;
+    background: url("images/larry2bw.jpg") no-repeat center center fixed;
     display: table;
     height: 100%;
     position: relative;
@@ -147,8 +147,15 @@ html, body {
     background-color: #F2F2F2;
 }
 
-blockquote {
-  padding-left: 25%;
-  padding-right: 25%;
+.block-quote {
   width: 100%;
+  padding: 10% 25% 10% 25%;
+}
+
+.block-quote h2 {
+  color: #F2F2F2;
+}
+
+.block-quote p {
+  color: #F2F2F2;
 }
