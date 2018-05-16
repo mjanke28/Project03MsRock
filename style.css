@@ -41,18 +41,20 @@
 }
 
  @media only screen and (max-width: 530px) {
-    .navlinks a:not(:last-child) {display: none;}
+    .navlinks a:not(:last-child) {
+      display: none;
+    }
     .navlinks a.icon {
     float: right;
     display: block;
   }
-
+  .navlinks {
+    padding-top: 20px;
+    padding-bottom: 15px;
+  } 
 }
 
 @media only screen and (max-width: 400px) {
-  .navlinks {
-    padding: 0;
-  }  
   .navlinks.responsive {
     position: relative;
   }
@@ -66,6 +68,10 @@
         display: block;
         text-align: left;
   }
+  .navlinks {
+    padding-top: 20px;
+    padding-bottom: 15px;
+  } 
 }
 
 a.is-active{
