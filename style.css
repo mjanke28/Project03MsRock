@@ -19,7 +19,7 @@
 
   .navlinks { 
     float:right;
-    padding:25px;
+    padding: 25px;
   }
   
   .navlinks a {
@@ -30,20 +30,42 @@
     -moz-transition: all 0.3s ease;
     transition: all 0.3s ease;
   }
-  
-  .navlinks a:hover {
-    padding:20px 15px;
 
+  a.icon {
+    padding: 0;
+  }
+  
+  .navlinks .icon {
+    display: none;
+    font-size: 25px;
+}
+
+ @media only screen and (max-width: 530px) {
+    .navlinks a:not(:last-child) {display: none;}
+    .navlinks a.icon {
+    float: right;
+    display: block;
   }
 
-  @media only screen and (max-width: 530px) {
-    .logo {display:none;}
-    .navlinks{float:left; padding: 25px 0 25px 5px; letter-spacing:0px;}
 }
 
 @media only screen and (max-width: 400px) {
-  .logo {display:none;}
-  .navlinks{float:left; word-spacing: -5px;; letter-spacing:0px;}
+  .navlinks {
+    padding: 0;
+  }  
+  .navlinks.responsive {
+    position: relative;
+  }
+    .navlinks.responsive a.icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+  }
+    .navlinks.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+  }
 }
 
 a.is-active{
