@@ -78,7 +78,7 @@ html, body {
   }
   /* additional sections */
   #home {
-    background: url("double-diamond-design.png") no-repeat center center fixed;
+    background: url("image/double-diamond-design.png") no-repeat center center fixed;
     display: table;
     height: 100%;
     position: relative;
