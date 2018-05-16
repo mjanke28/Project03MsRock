@@ -78,6 +78,11 @@ html, body {
     color: #F2F2F2;
     height: 100%;
     width: 100%;
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Cinzel', serif;
   }
   /* padded section */
   .pad-section {
@@ -173,10 +178,15 @@ html, body {
 .block-quote {
   width: 100%;
   padding: 10% 25% 10% 25%;
+  font-family: 'Open Sans', sans-serif;
+  font-style: italic;
+  font-weight: 600;
 }
 
 .block-quote h2 {
   color: #F2F2F2;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
 }
 
 p {
