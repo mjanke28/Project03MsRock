@@ -78,7 +78,7 @@ html, body {
   }
   /* additional sections */
   #home {
-    background: url("image/double-diamond-design.png") no-repeat center center fixed;
+    background: url("images/double-diamond-design.png") no-repeat center center fixed;
     display: table;
     height: 100%;
     position: relative;
@@ -88,6 +88,11 @@ html, body {
     -o-background-size: cover;
     background-size: cover;
   }
+
+  #home p {
+    padding: 0 25%
+  }
+
   #about {
   }
   #services {
@@ -140,4 +145,10 @@ html, body {
   .btn {
     border: 1px solid #0D0D0B;
     background-color: #F2F2F2;
+}
+
+blockquote {
+  padding-left: 25%;
+  padding-right: 25%;
+  width: 100%;
 }
