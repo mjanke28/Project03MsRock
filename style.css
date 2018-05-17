@@ -136,7 +136,7 @@ html, body {
 
   /* additional sections */
   #home {
-    background: url("images/larry2bw.jpg") no-repeat center center fixed;
+    background-image: no-repeat center center fixed;
     display: table;
     height: 100%;
     position: relative;
@@ -150,7 +150,7 @@ html, body {
   #home p {
     padding: 0 25%
   }
-  
+
 /* 
   #quote {
   } */
