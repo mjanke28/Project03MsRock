@@ -21,6 +21,8 @@
     float:right;
     padding: 25px;
   }
+
+
   
   .navlinks a {
     width:50%;
@@ -78,7 +80,10 @@ a.is-active{
     text-decoration: none;
     color: #CEA449
 }
-
+a:hover {
+  color: #8C8274;
+  text-decoration: none;
+}
 
 /* general styles */
 html, body {
@@ -147,7 +152,7 @@ html, body {
     padding: 0 25%
   }
 
-  
+
 
   #quote {
   }
