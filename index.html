@@ -48,7 +48,7 @@
         <div class="text-vcenter">
           <h1>History</h1>
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur itaque dignissimos iste. Deserunt iste id atque molestias obcaecati beatae fugit dolores distinctio ex maxime, voluptates vero ratione, corporis eum error!</p>
-          <a href="#about" class="btn btn-default btn-lg">History</a>
+          <!-- <a href="#about" class="btn btn-default btn-lg">History</a> -->
         </div>
       </div>
       <!-- /first section -->
@@ -77,6 +77,16 @@
             <div class="col-sm-6">
                 <img src="images/larrybw.jpg" style="width:100%; float:right;">
               </div>
+=======
+                <div class="col-sm-6 text-left">
+                        <h1 style="color: #CEA449">History</h1>
+                        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed interdum metus et ligula venenatis, at rhoncus nisi molestie. Pellentesque porttitor elit suscipit massa laoreet metus.</p>
+                      </div>
+            <div class="col-sm-6">
+              <img src="http://via.placeholder.com/350x350">
+            </div>
+            
+>>>>>>> f25dc0512186adbb649edf91c028fcf1821abf6c
           </div>
         </div>
       </div>
@@ -103,7 +113,7 @@
 
 <div class="timeline">
     <div class="text-vcenter">
-      <h1>Timeline</h1>
+      <h1 style="color: #CEA449">Timeline</h1>
     <img src="images/timeline.png" style="max-width:100%; padding:10% 25% 0 25%;">
       <a href="..." class="btn btn-default btn-lg">See More</a>
     </div>
@@ -117,7 +127,7 @@
 <!-- fourth section - Services -->
     <div id="services" class="pad-section">
         <div class="container">
-          <h2 class="text-center">Our Goals</h2> <hr />
+          <h1 class="text-center" style="color:#CEA449">Our Goals</h1> 
           <div class="row text-center">
             <div class="col-sm-4 col-xs-12">
               <i class="glyphicon glyphicon-cloud"> </i>
@@ -160,6 +170,7 @@
 
     </div>
 
+    
     <footer>
 <!--Footer-->
 <footer class="page-footer font-small">
@@ -173,15 +184,17 @@
         </div>
     </div>
 
+   
+
     <!--Footer Links-->
     <div class="container mt-5 mb-4 text-center">
         <div class="row mt-3">
 
             <!--First column-->
             <div class="col-md-4">
-                <h6 class="text-uppercase font-weight-bold">
+                <h5 class="text-uppercase font-weight-bold">
                     <strong>Contact</strong>
-                </h6>
+                </h5>
                 <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
                 <p>
                     <i class="fa fa-home mr-3"></i> Glendora, CA</p>
@@ -196,9 +209,9 @@
 
             <!--Second column-->
             <div class="col-md-4 text-center" style="word-spacing: 30px;">
-                <h6 class="text-uppercase font-weight-bold">
+                <h5 class="text-uppercase font-weight-bold">
                     <strong>Social</strong>
-                </h6>
+                </h5>
                     <!--Facebook-->
                     <a class="fb-ic ml-0">
                         <i class="fab fa-facebook" style="font-size: 30px;"> </i>
@@ -216,9 +229,9 @@
 
             <!--Third column-->
             <div class="col-md-4">
-                <h6 class="text-uppercase font-weight-bold">
+                <h5 class="text-uppercase font-weight-bold">
                     <strong>Useful links</strong>
-                </h6>
+                </h5>
                 <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
                 <p>
                     <a href="#!">Articles</a>
@@ -240,15 +253,18 @@
     <!--/.Footer Links-->
 
     <!-- Copyright-->
-    <div class="footer-copyright py-3">
+    <div class="footer-copyright py-3" style="text-align: center">
         © 2018 Copyright:
-        <a href="https://www.babypixelpusher.com/">
-            <strong>Ms Rock Powered By Baby Pixel Pusher</strong>
+        <a href="http://www.mattjanke.com/" target="_blank">
+            <strong>Ms Rock</strong>
         </a>
     </div>
     <!--/.Copyright -->
 
 </footer>
+<div class="progress">
+    <div class="bar"></div>
+</div>
 <!--/.Footer-->
 
 
@@ -284,6 +300,26 @@
     }
 }
     </script>
+
+<!-- Progress Breadcrumb on the footer -->
+    <script>
+    function progress() {
+
+var windowScrollTop = $(window).scrollTop();
+var docHeight = $(document).height();
+var windowHeight = $(window).height();
+var progress = (windowScrollTop / (docHeight - windowHeight)) * 100;
+var $bgColor = progress > 99 ? '#CEA449' : '#CEA449';
+var $textColor = progress > 99 ? '#fff' : '#333';
+
+$('.progress .bar').width(progress + '%').css({ backgroundColor: $bgColor });
+$('.fill').height(progress + '%').css({ backgroundColor: $bgColor });
+}
+
+progress();
+
+$(document).on('scroll', progress);
+</script>
   
   </body>
 </html>
