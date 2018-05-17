@@ -21,8 +21,6 @@
     float:right;
     padding: 25px;
   }
-
-
   
   .navlinks a {
     width:50%;
@@ -79,13 +77,11 @@
 a.is-active{
     text-decoration: none;
     color: #CEA449
-<<<<<<< HEAD
-=======
 }
+
 a:hover {
   color: #8C8274;
   text-decoration: none;
->>>>>>> f175e59e3afdf075218e5f4354626515209f26d9
 }
 
 /* general styles */
@@ -154,15 +150,10 @@ html, body {
   #home p {
     padding: 0 25%
   }
-
-<<<<<<< HEAD
   
-=======
-
->>>>>>> f175e59e3afdf075218e5f4354626515209f26d9
-
+/* 
   #quote {
-  }
+  } */
 
 
   #services {
@@ -254,7 +245,7 @@ p {
 
 
 /* styling for footer progress */
-$orange:  #CEA449;
+/*$orange:  #CEA449;
 $lightgrey:  #0D0D0B;
 $white:  #0D0D0B;
 $charcoal: #333;
@@ -289,6 +280,4 @@ $ease: background .15s ease;
     width: 10%;
     background: $orange;
     transition: $ease;
-
   }
-}
