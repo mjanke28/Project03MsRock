@@ -76,6 +76,7 @@
 
 a.is-active{
     text-decoration: none;
+    color: #CEA449
 }
 
 
@@ -146,8 +147,12 @@ html, body {
     padding: 0 25%
   }
 
-  #about {
+  
+
+  #quote {
   }
+
+
   #services {
     background-color: #8C8274;
     /* color: #F2F2F2; */
