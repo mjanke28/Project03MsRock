@@ -147,6 +147,19 @@ html, body {
     background-size: cover;
   }
 
+  #smallhome {
+    background-image: no-repeat center center fixed;
+    display: table;
+    height: 50%;
+    position: relative;
+    width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+
   #home p {
     padding: 0 25%
   }
@@ -208,10 +221,22 @@ html, body {
   /*personal taste*/
 
   .btn {
-    border: 1px solid #0D0D0B;
-    background-color: #F2F2F2;
+    /* border: 1px solid #0D0D0B; */
+    background-color: #CEA449;
     color: #0D0D0B;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    border-radius: 0;
+    padding: 5px;
+    width:150px;
+    font-size: 12pt;
 }
+
+.btn:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.5), 0 17px 50px 0 rgba(0,0,0,0.5);
+}
+
+
 
 .block-quote {
   width: 100%;
@@ -229,7 +254,7 @@ html, body {
 
 p {
   color: #F2F2F2;
-  font-size: 20px;
+  font-size: 15px;
   line-height: 1.5;
 }
 
@@ -242,6 +267,9 @@ p {
 .timeline p {
   padding: 0 25%
 }
+
+
+
 
 
 /* styling for footer progress */
@@ -266,7 +294,7 @@ $ease: background .15s ease;
    transition: $ease;
 }
 
-.progress {
+footer .progress {
   position: fixed;
   bottom: 0;
   left: 0;
@@ -281,3 +309,6 @@ $ease: background .15s ease;
     background: $orange;
     transition: $ease;
   }
+
+
+  
