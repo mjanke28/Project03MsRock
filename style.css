@@ -87,9 +87,25 @@ html, body {
     font-family: 'Open Sans', sans-serif;
   }
 
-  h1, h2, h3, h4, h5, h6 {
+  h1, h2, h3, h6 {
     font-family: 'Cinzel', serif;
   }
+
+  .h5 {
+    color: #8C8274;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  
+  .h4 {
+    color: #CEA449;
+    height: 100%;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  
   /* padded section */
   .pad-section {
     padding: 50px 0;
@@ -104,11 +120,15 @@ html, body {
     vertical-align: middle;
   }
   .text-vcenter h1 {
-    font-size: 4.5em;
-    font-weight: 700;
+    font-size: 2.5em;
+    font-weight: 600;
     margin: 0;
     padding: 0;
   }
+
+
+
+
   /* additional sections */
   #home {
     background: url("images/larry2bw.jpg") no-repeat center center fixed;
@@ -130,7 +150,7 @@ html, body {
   }
   #services {
     background-color: #8C8274;
-    color: #F2F2F2;
+    /* color: #F2F2F2; */
   }
   #services .glyphicon {
     border: 2px solid #F2F2F2;
@@ -173,6 +193,10 @@ html, body {
     color: #F2F2F2;
   }
 
+  footer h5 {
+    color: #8C8274;
+  }
+
   /*personal taste*/
 
   .btn {
@@ -209,4 +233,45 @@ p {
 
 .timeline p {
   padding: 0 25%
+}
+
+
+/* styling for footer progress */
+$orange:  #CEA449;
+$lightgrey:  #0D0D0B;
+$white:  #0D0D0B;
+$charcoal: #333;
+$ease: background .15s ease;
+
+%align-both {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%)
+}
+
+.fill {
+   width: 100%;
+   height: 100%;
+   background: $orange;
+   position: absolute;
+   bottom: 0;
+   transition: $ease;
+}
+
+.progress {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 8px;
+  background: #0D0D0B;
+  z-index: 1;
+
+  .bar {
+    height: 100%;
+    width: 10%;
+    background: $orange;
+    transition: $ease;
+
+  }
 }
