@@ -141,9 +141,9 @@ html, body {
     height: 100%;
     position: relative;
     width: 100%;
-    -webkit-background-size: cover;
+    /* -webkit-background-size: cover;
     -moz-background-size: cover;
-    -o-background-size: cover;
+    -o-background-size: cover; */
     background-size: cover;
   }
 
@@ -228,6 +228,7 @@ html, body {
   }
   #google_map {
     height: 500px;
+    pa
   }
   footer {
     padding: 20px 0;
