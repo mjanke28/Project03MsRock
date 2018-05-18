@@ -292,7 +292,9 @@ p {
   padding: 0 25%
 }
 
-
+#carouselExampleControls {
+  width: 180%;
+}
 
 
 
