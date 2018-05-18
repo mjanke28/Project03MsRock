@@ -367,8 +367,6 @@ body {
   .counter {
     color: #cea449;
     padding: 25px;
-    margin: 25px 0 15px 0;
-    background-color: #000;
     font-weight: 700;
     border-radius: 0px;
     min-height: 80px;
@@ -390,7 +388,6 @@ body {
     .seconds .value {
         display: block;
         font-size: 36pt;
-        width: 100%;
         display: block;
       }
       span {
