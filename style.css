@@ -279,7 +279,7 @@ html, body {
 
 p {
   color: #F2F2F2;
-  font-size: 15px;
+  font-size: 20px;
   line-height: 1.5;
 }
 
@@ -399,7 +399,7 @@ body {
         width: 100%;
         display: block;
       }
-      
+
     .hours::before,
     .minutes::before,
     .seconds::before {
