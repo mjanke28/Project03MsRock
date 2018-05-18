@@ -164,9 +164,20 @@ html, body {
     padding: 0 25%
   }
 
-/* 
-  #quote {
-  } */
+  /* additional sections */
+
+  #museum {
+    background-image: no-repeat center center fixed;
+    display: table;
+    height: 100%;
+    position: relative;
+    width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-color: gray;
+  }
 
 
   #services {
@@ -184,6 +195,23 @@ html, body {
     vertical-align: middle;
     width: 140px;
   }
+
+  #goals {
+    background-color: #8C8274;
+    /* color: #F2F2F2; */
+  }
+    #goals .glyphicon {
+      border: 2px solid #F2F2F2;
+      border-radius: 50%;
+      display: inline-block;
+      font-size: 60px;
+      height: 140px;
+      line-height: 140px;
+      text-align: center;
+      vertical-align: middle;
+      width: 140px;
+    }
+
   #information {
     background: url(../images/estate.jpg) no-repeat center center fixed;
     display: table;

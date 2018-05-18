@@ -44,20 +44,20 @@
 
 
 <!-- first section - Home -->
-    <div id="home" class="home" background=images/larry2bw.jpg>
-        <div class="text-vcenter">
-          <h1>History</h1>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur itaque dignissimos iste. Deserunt iste id atque molestias obcaecati beatae fugit dolores distinctio ex maxime, voluptates vero ratione, corporis eum error!</p>
-          <!-- <a href="#about" class="btn btn-default btn-lg">History</a> -->
-        </div>
-      </div>
-      <!-- /first section -->
+<div id="home" class="home" style="background: url(images/larry2bw.jpg) no-repeat center center fixed;">
+    <div class="text-vcenter">
+      <h1>History</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur itaque dignissimos iste. Deserunt iste id atque molestias obcaecati beatae fugit dolores distinctio ex maxime, voluptates vero ratione, corporis eum error!</p>
+    <!-- <a href="#about" class="btn btn-default btn-lg">History</a> -->
+    </div>
+  </div>
+<!-- /first section -->
 
 
 <!--second section - quote-->
 
 
-      <div  id="quote" background=images/rock2.jpg;  style="width:100%;">
+      <div  id="quote" style="background: url(images/rock2.jpg) no-repeat center center fixed; width: 100%;">
         <div class="block-quote">
             <h2>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante."</h2>
             <p>Someone famous in Rock Club</p>
@@ -84,7 +84,7 @@
 
 <!--fourth section - stat-->
 
-<div background=images/agate.jpg; style="width:100%;">
+<div id=smallhome style="background: url(images/rock2.jpg) no-repeat center center fixed;  width:100%;">
   <div style="text-align: center; padding:10%;">
       <p>25 students each class</p>
       <p>x</p>
@@ -114,7 +114,7 @@
 
 
 <!-- sixth section - The Future -->
-<div id="home" class="home" style="background: url("images/cta-large.jpg") no-repeat center center fixed;">
+<div id="home" style="background: url(images/cta-large.jpg) no-repeat center center fixed; width: 100%;">
     <div class="text-vcenter">
       <h1>The future</h1>
     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur itaque dignissimos iste. Deserunt iste id atque molestias obcaecati beatae fugit dolores distinctio ex maxime, voluptates vero ratione, corporis eum error!</p>
@@ -177,7 +177,7 @@
 <!--Footer-->
 <footer class="page-footer font-small">
 
-    <div style="background-color:#0D0D0B;">
+    <div style: "background-color:#0D0D0B;">
         <div class="container">
             <!--Grid row-->
             <div class="row py-4 d-flex align-items-center">
@@ -270,58 +270,58 @@
 <!--/.Footer-->
 
 
-    <!-- Optional JavaScript -->
-      <!-- attach JavaScripts -->
-    <script src="js/jquery-1.10.2.js"></script> 
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/main.js"></script>
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+<!-- Optional JavaScript -->
+     <!-- attach JavaScripts -->
+     <script src="js/jquery-1.10.2.js"></script>
+     <script src="js/bootstrap.min.js"></script>
+     <script src="js/main.js"></script>
+     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+   
+     <!-- When the user scrolls down, hide the navbar. When the user scrolls up, show the navbar -->
+     <script>
+     var prevScrollpos = window.pageYOffset;
+     window.onscroll = function() {
+       var currentScrollPos = window.pageYOffset;
+       if (prevScrollpos > currentScrollPos) {
+         document.getElementById("navigation").style.top = "0";
+       } else {
+         document.getElementById("navigation").style.top = "-74px";
+       }
+       prevScrollpos = currentScrollPos;
+     }
   
-    <!-- When the user scrolls down, hide the navbar. When the user scrolls up, show the navbar -->
-    <script>
-    var prevScrollpos = window.pageYOffset;
-    window.onscroll = function() {
-      var currentScrollPos = window.pageYOffset;
-      if (prevScrollpos > currentScrollPos) {
-        document.getElementById("navigation").style.top = "0";
-      } else {
-        document.getElementById("navigation").style.top = "-74px";
-      }
-      prevScrollpos = currentScrollPos;
-    }
-
-    function myFunction() {
-    var x = document.getElementById("navigation");
-    if (x.className === "navigation") {
-        x.className += " responsive";
-    } else {
-        x.className = "navigation";
-    }
-}
-    </script>
-
-<!-- Progress Breadcrumb on the footer -->
-<script>
-function progress() {
-
-var windowScrollTop = $(window).scrollTop();
-var docHeight = $(document).height();
-var windowHeight = $(window).height();
-var progress = (windowScrollTop / (docHeight - windowHeight)) * 100;
-var $bgColor = progress > 99 ? '#CEA449' : '#CEA449';
-var $textColor = progress > 99 ? '#fff' : '#333';
-
-$('.progress .bar').width(progress + '%').css({ backgroundColor: $bgColor });
-$('.fill').height(progress + '%').css({ backgroundColor: $bgColor });
-}
-
-progress();
-
-$(document).on('scroll', progress);
-</script>
+     function myFunction() {
+     var x = document.getElementById("navigation");
+     if (x.className === "navigation") {
+         x.className += " responsive";
+     } else {
+         x.className = "navigation";
+     }
+  }
+     </script>
+  
+  <!-- Progress Breadcrumb on the footer -->
+  <script>
+  function progress() {
+  
+  var windowScrollTop = $(window).scrollTop();
+  var docHeight = $(document).height();
+  var windowHeight = $(window).height();
+  var progress = (windowScrollTop / (docHeight - windowHeight)) * 100;
+  var $bgColor = progress > 99 ? '#CEA449' : '#CEA449';
+  var $textColor = progress > 99 ? '#fff' : '#333';
+  
+  $('.progress .bar').width(progress + '%').css({ backgroundColor: $bgColor });
+  $('.fill').height(progress + '%').css({ backgroundColor: $bgColor });
+  }
+  
+  progress();
+  
+  $(document).on('scroll', progress);
+  </script>
   
   </body>
 </html>
