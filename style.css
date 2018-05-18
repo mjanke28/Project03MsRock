@@ -145,15 +145,11 @@ html, body {
 
 
   #smallhome {
-    background-image: no-repeat center center fixed;
     display: table;
     height: 50%;
     position: relative;
     width: 100%;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    background-size: 100% auto !important;
   }
 
 
@@ -223,10 +219,7 @@ html, body {
   #information .panel {
     opacity: 0.85;
   }
-  #google_map {
-    height: 500px;
-    pa
-  }
+
   footer {
     padding: 20px 0;
     background-color: #0D0D0B;
