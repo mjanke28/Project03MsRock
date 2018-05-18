@@ -141,9 +141,9 @@ html, body {
     height: 100%;
     position: relative;
     width: 100%;
-    -webkit-background-size: cover;
+    /* -webkit-background-size: cover;
     -moz-background-size: cover;
-    -o-background-size: cover;
+    -o-background-size: cover; */
     background-size: cover;
   }
 
@@ -200,6 +200,7 @@ html, body {
   }
   #google_map {
     height: 500px;
+    pa
   }
   footer {
     padding: 20px 0;
@@ -233,6 +234,7 @@ html, body {
 }
 
 .btn:hover {
+  color: #0D0D0B;
   box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.5), 0 17px 50px 0 rgba(0,0,0,0.5);
 }
 
