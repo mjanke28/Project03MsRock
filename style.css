@@ -96,8 +96,14 @@ html, body {
     margin-bottom: 1em !important ;
   }
 
-  h1, h2, h3, h6 {
+  h1, h2, h6 {
     font-family: 'Cinzel', serif;
+  }
+
+  h3 {
+    color:#F2F2F2;
+    font-size: 20px;
+    text-align: left;
   }
 
   .h5 {
@@ -281,6 +287,7 @@ p {
   color: #F2F2F2;
   font-size: 20px;
   line-height: 1.5;
+  text-align: left;
 }
 
 .timeline {
@@ -427,4 +434,9 @@ body {
   100% {
     opacity: 1;
   }
+}
+ 
+
+footer p {
+  text-align: center;
 }
